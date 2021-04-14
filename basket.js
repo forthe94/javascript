@@ -4,9 +4,9 @@ function countBasketPrice(basket)
 {
     let total = 0;
     var good = 0;
-    while (good < basket.length)
+    for (let good in basket)
     {
-	total += basket[good][1]
+	total += good[1]
 	good++;
     }
     return total;
