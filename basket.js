@@ -21,6 +21,7 @@ function Basket()
 
 var basket = new Basket();
 
+
 basket.add_good("Яблоко", 100);
 basket.add_good("Тыква", 25);
 basket.add_good("Морковь", 45);
