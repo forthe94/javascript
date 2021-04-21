@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin: 20px auto;
+    width: 630px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.black_cell{
+	width: 60px;
+	height: 60px;
+	background-color: black;
+	display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center;     /*Центрирование по вертикали */
+	
+}
+
+.white_cell{
+	width: 60px;
+	height: 60px;
+	background-color: white;
+	display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center;     /*Центрирование по вертикали */
+
+}
+
+.white_pieces{
+    font: bold 3em Arial, sans-serif;
+    color: #f0f0f0; /* Цвет текста, совпадает с цветом фона */
+    text-shadow: black 1px 1px 0, black -1px -1px 0, 
+                 black -1px 1px 0, black 1px -1px 0;	
+}
+
+.black_pieces{
+    font: bold 3em Arial, sans-serif;
+    color: #000000; /* Цвет текста, совпадает с цветом фона */
+    text-shadow: white 1px 1px 0, white -1px -1px 0, 
+                 white -1px 1px 0, white 1px -1px 0;		
+}
